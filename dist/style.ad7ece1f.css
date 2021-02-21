@@ -1,0 +1,2 @@
+*{margin:0;padding:0}*,:after,:before{box-sizing:border-box}* #demo{word-break:break-all}#div1{position:fixed;left:50%;transform:translate(-50%);top:20px}#div1:after,#div1:before{content:"";display:block;position:absolute}@media (max-width:500px){#html{overflow:hidden}#div1Wrapper,#html{height:50vh}#div1{position:relative;top:0;right:0}}#div1{transform:rotate(1turn);animation:div1 6s linear infinite}@keyframes div1{to{transform:rotate(1turn)}}
+/*# sourceMappingURL=style.ad7ece1f.css.map */
