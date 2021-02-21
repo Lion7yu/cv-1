@@ -46,6 +46,9 @@ let string = `/*你好，我是一个大帅哥
     border-radius:50%;
     background: radial-gradient(circle,rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 25%,rgba(0,0,0,1)100%);
 }
+/*负阴抱阳*/
+#div1{
+    transform: rotate(-720deg);
 }
 `;
 let string2 = "";
@@ -72,7 +75,7 @@ let step = () => {
             n += 1;//54
             step();
         }
-    }, 50);
+    }, 0);
 };
 
 step()
